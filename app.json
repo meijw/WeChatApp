@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/canvas/canvas"
+    "pages/canvas/canvas",
+    "pages/aterro/aterro"
   ],
   "window":{
     "backgroundTextStyle":"light",

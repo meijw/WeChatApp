@@ -3,13 +3,14 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
+    motto: 'My WeXin App',
     userInfo: {}
   },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      //url: '../logs/logs'
+      url: '../aterro/aterro'
     })
   },
   onLoad: function () {

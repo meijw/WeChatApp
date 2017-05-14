@@ -1,0 +1,19 @@
+<!--aterro.wxml-->
+<text>后台调用示例</text>
+
+<view>  
+  <text>欢迎：{{userDetail.userName}}登录</text>  
+</view>  
+
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">用户号</view>
+    <view class="th">用户名</view>
+    <view class="th">密码</view>
+  </view>
+  <view class="tr bg-g">
+    <view class="td">{{userDetail.userId}}</view>
+    <view class="td">{{userDetail.userName}}</view>
+    <view class="td">{{userDetail.password}}</view>
+  </view>
+</view>
